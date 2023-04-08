@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ deepslate[axis="x"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:deepslate", Properties:{axis:"x"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ deepslate[axis="y"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:deepslate", Properties:{axis:"y"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ deepslate[axis="z"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:deepslate", Properties:{axis:"z"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}

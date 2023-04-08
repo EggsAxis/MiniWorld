@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #ehd:block_displays/no_states run function ehd:render_holos/block_displays/without_states
+execute unless block ~ ~ ~ #ehd:block_displays/no_states run function ehd:render_holos/block_displays/with_states

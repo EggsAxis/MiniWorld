@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ dark_oak_sapling[stage="0"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:dark_oak_sapling", Properties:{stage:"0"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ dark_oak_sapling[stage="1"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:dark_oak_sapling", Properties:{stage:"1"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}

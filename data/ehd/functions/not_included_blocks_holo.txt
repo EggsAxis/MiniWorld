@@ -1,0 +1,39 @@
+bamboo_sapling
+bamboo
+barrier
+campfire
+soul_campfire
+cocoa
+potatoes
+wheat
+carrots
+beetroots
+dried_kelp_block
+end_gateway
+end_portal
+fire
+soul_fire
+frosted_ice
+skeleton_skull
+skeleton_wall_skull
+wither_skeleton_skull
+wither_skeleton_wall_skull
+light
+nether_wart
+moving_piston
+pointed_dripstone
+structure_void
+sweet_berry_bush
+bubble_column
+
+
+All banners
+All buttons
+All cakes
+All carpets
+All potted plants
+All heads
+All plates
+All fans
+All signs
+All torches

@@ -1,0 +1,11 @@
+execute as @a[scores={place_hologram=1..}] at @s run function ehd:entity_utils/place_hologram
+execute as @a[scores={place_miniature=1..}] at @s run function ehd:entity_utils/place_miniature
+execute as @a[scores={remove_entity=1..}] at @s run function ehd:entity_utils/remove_entity
+execute as @a[scores={switch_entity=1..}] at @s run function ehd:entity_utils/switch_entity
+execute as @a[scores={edit_entity=1..}] at @s run function ehd:entity_utils/edit_entity
+execute as @a[scores={rotate_entity=-986..}] at @s run function ehd:entity_utils/rotate/rotate_entity
+execute as @a[scores={teleport_entity=1..}] at @s run function ehd:entity_utils/teleport_entity
+execute as @a[scores={rebuild_miniature=1..}] at @s run function ehd:entity_utils/rebuild_miniature
+execute as @a[scores={edit_tool=1..}] at @s run function ehd:entity_utils/edit_tool
+execute as @a[scores={size_miniature=1..}] at @s run function ehd:entity_utils/size/size_miniature
+execute as @a[scores={delete_miniworld=1..}] at @s run function ehd:entity_utils/delete/verification

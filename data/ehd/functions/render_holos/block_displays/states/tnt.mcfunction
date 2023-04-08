@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ tnt[unstable="true"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:tnt", Properties:{unstable:"true"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ tnt[unstable="false"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:tnt", Properties:{unstable:"false"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}

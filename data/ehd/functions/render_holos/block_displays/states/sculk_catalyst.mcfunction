@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ sculk_catalyst[bloom="true"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:sculk_catalyst", Properties:{bloom:"true"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ sculk_catalyst[bloom="false"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:sculk_catalyst", Properties:{bloom:"false"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}

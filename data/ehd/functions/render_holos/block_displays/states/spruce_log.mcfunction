@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ spruce_log[axis="x"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:spruce_log", Properties:{axis:"x"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ spruce_log[axis="y"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:spruce_log", Properties:{axis:"y"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ spruce_log[axis="z"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:spruce_log", Properties:{axis:"z"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}

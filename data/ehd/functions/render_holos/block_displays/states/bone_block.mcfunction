@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ bone_block[axis="x"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:bone_block", Properties:{axis:"x"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ bone_block[axis="y"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:bone_block", Properties:{axis:"y"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
+execute if block ~ ~ ~ bone_block[axis="z"] at @e[type=marker,tag=holo_looper,tag=z_looper,limit=1] run summon block_display ~ ~ ~ {block_state:{Name: "minecraft:bone_block", Properties:{axis:"z"}}, Tags:["just_placed","ehd_miniature_block"], view_range:0.0f}
